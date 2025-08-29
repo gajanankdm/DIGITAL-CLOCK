@@ -16,10 +16,10 @@ const  digitclock = () =>{
 let d = new Date();
 
 let hr = d.getHours();
-let session = "PM"
+let session = "AM"
 if(hr>12){
     hr=hr-12
-    session="AM"
+    session="PM"
 }
 let min = d.getHours();
 let sec = d.getSeconds();
