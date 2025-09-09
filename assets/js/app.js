@@ -21,7 +21,7 @@ if(hr>12){
     hr=hr-12
     session="PM"
 }
-let min = d.getHours();
+let min = d.getMinutes();
 let sec = d.getSeconds();
 
 
